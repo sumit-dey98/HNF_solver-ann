@@ -1,0 +1,21 @@
+y1 --> output [alpha (water)  alpha (EO)]
+x1 --> input [M m0 n0 phi] 
+
+
+Model Summary:
+
+Data
+Input: 177x4 matrix
+target: 177x2 matrix
+
+Algorithm
+Data Division: Random
+Training Algorithm: Levenberg-Marquardt
+Performance: Mean Squared Error
+Layer Size: 15
+
+Training Results
+            Obserevation      MSE          R
+Training        123        1.3335e-04	0.9999
+Validation       27        3.8276e-04	0.9997
+Test             27        3.0604e-04	0.9995

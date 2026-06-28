@@ -1,0 +1,6 @@
+# MATLAB autosave
+*.asv
+*.m~
+
+# MS Office lock/autosave files
+~$*

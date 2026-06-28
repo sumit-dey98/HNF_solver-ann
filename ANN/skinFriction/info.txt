@@ -1,0 +1,21 @@
+y1 --> output [ f''(0) [water] f''(0) [EO]  g'(0)[water] g'(0)[EO]  ]
+x1 --> input [M m0 n0 phi alpha] 
+
+
+Model Summary:
+
+Data
+Input: 25979x5 matrix
+target: 25379x4 matrix
+
+Algorithm
+Data Division: Random
+Training Algorithm: Levenberg-Marquardt
+Performance: Mean Squared Error
+Layer Size: 30
+
+Training Results
+            Obserevation      MSE          R
+Training        17765	  1.9837e-04	1.0000
+Validation       3807	  2.0949e-04	1.0000
+Test             3807	  2.1137e-04	1.0000
